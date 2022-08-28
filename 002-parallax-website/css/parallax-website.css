@@ -10,6 +10,7 @@
 } */
 *{
     margin: 0;
+    
 }
 
 .first-container {
@@ -21,6 +22,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.7;
 }
 
 .sekil span {
@@ -33,15 +35,42 @@
   outline: 2px inset rgb(184, 69, 184);
   outline-offset: 5px;
   letter-spacing: 1.5px;
+  
 }
 
 .yazi{
     font-size: 4px;
     text-align: center;
+    background-color:beige ;
+    padding:8px 5px;
+    line-height: 6px;
 }
 
+.second-container{
+    height: 100vh;
+    background-image: url(/002-parallax-website/img/bg1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.7;
 
+}
 
+.claruswaylogo img{
+    height: 15px;
+}
+
+.yazi2{
+    color: white;
+    font-size: 4px;
+    text-align: center;
+    background-color:rgb(67, 67, 75) ;
+    padding:8px 5px;
+    line-height: 6px;
+}
 /* .p1{
     height: 20px;
     background-color: bisque;
