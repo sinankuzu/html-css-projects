@@ -15,12 +15,20 @@ h1{
     height: 100vh;
     background-image:url(/002-parallax-website/img/bg.jpg) ;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-p{
-    background-image: ;
-    width: 100vw;
+.p1{
+    height: 20px;
+    background-color: bisque;
+    font-size: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.p2{
     height: 100vh;
     background-image: url(/002-parallax-website/img/bg1.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
