@@ -1,0 +1,26 @@
+/* body{
+    background-image: 
+    url(/002-parallax-website/img/bg.jpg),
+    url(/002-parallax-website/img/bg1.jpg),
+    url(/002-parallax-website/img/bg2.jpg),
+    url(/002-parallax-website/img/bg3.jpg),
+    url(/002-parallax-website/img4/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+} */
+*{
+    margin: 0;
+}
+h1{
+    height: 100vh;
+    background-image:url(/002-parallax-website/img/bg.jpg) ;
+    background-size: cover;
+}
+
+p{
+    background-image: ;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/002-parallax-website/img/bg1.jpg);
+    background-size: cover;
+}
