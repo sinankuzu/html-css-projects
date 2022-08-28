@@ -8,15 +8,33 @@
     background-size: cover;
     background-attachment: fixed;
 } */
-*{
-    margin: 0;
-}
-h1{
-    background-color: gray;
-    /* height: 100vh;
+
+.first-container{
+    height: 100vh;
     background-image:url(/002-parallax-website/img/bg.jpg) ;
     background-size: cover;
-    background-attachment: fixed; */
+    background-attachment: fixed;
+}
+
+.sekil{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.sekil span{
+  
+    color: white;
+    font-size: 10px;
+    background-color: rgb(81, 81, 81);
+    padding: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: 2px inset rgb(184, 69, 184);
+    outline-offset: 5px;
+    letter-spacing: 1.5px;
+ 
     
 }
 
