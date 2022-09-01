@@ -1,0 +1,35 @@
+@font-face{
+    font-family: 'deneme';
+    src: url(/005-checkout-form/FONTS/Montserrat-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    font-family: deneme;
+}
+
+.container-products{
+    width: 400px;
+    
+    float: right;
+    border: 1px solid red
+    
+}
+
+img{
+    width: 150px;
+    float: left;
+}
+
+.bag-text{
+
+}
+
+.price{
+   
+}
+
+.shoe-img{
+    clear: left;
+}
+
