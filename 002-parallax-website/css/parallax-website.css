@@ -7,7 +7,7 @@
 
 .first-container {
   height: 100vh;
-  background-image: url(/002-parallax-website/img/bg.jpg);
+  background-image: url(/img/bg.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -40,7 +40,7 @@
 
 .second-container{
     height: 100vh;
-    background-image: url(/002-parallax-website/img/bg1.jpg);
+    background-image: url(/img/bg1.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
