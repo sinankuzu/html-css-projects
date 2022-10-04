@@ -1,0 +1,137 @@
+body{
+ 
+}
+
+.logo{
+    display: flex;
+}
+
+.navbar{
+    z-index: 5;
+    padding:15px 5px;
+}
+i{
+    color: purple;
+    margin-right: 5px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+background-color: purple;
+border-radius: 10px;
+color:white;
+
+}
+.nav-link:hover i{
+    color: white;
+}
+
+.banner{
+    background-image: url(../images/header-bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+    
+    
+}
+
+.yazilar{
+    
+    text-align: center;
+    z-index: 4;
+    line-height: 60px;
+}
+
+.hosgeldiniz{
+    font-size: 20px;
+}
+.yazilar h1{
+    line-height: 100px;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+
+
+.btn{
+    
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding:12px 35px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+section.banner .yazilar h2 {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.img-container{
+    background-color: black;
+    left:0 ;
+    top: 88px;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: absolute;
+    opacity:0.5;
+}
+
+.resmim img{
+    float: left;
+    width: 550px;
+    
+    margin-right: 40px;
+}
+
+.paragraf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    padding: 60px;
+}
+
+.paragraf p {
+    line-height: 20px;
+}
+
+.neden-ben h3{
+    line-height: 20px;
+}
+
+.hizmetlerimiz h2::before {
+ content: "\f789";
+  display: block;
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  font-size: 3rem;
+  color: purple;
+  text-align: center;
+}
+
+.hizmetlerimiz{
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 100px;
+}
+
+.hizmet-paragraf{
+    text-align: center;
+    line-height: 5px;
+    
+}
