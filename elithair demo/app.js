@@ -1,5 +1,8 @@
 const carouselSlide = document.querySelector(".slides")
 const carouselImages = document.querySelector(".slides img")
+const checked2 = document.querySelector(".second-table-div")
+const mehrAnzeigen = document.querySelector(".show-more")
+const mehrAnzeigen2 = document.querySelector(".show-more2")
 const myImages = [
   "https://cdn.elithairtransplant.com/german/wp-content/uploads/2021/08/Vorher-nachher-saphir-haartransplantation-4700-grafts-Frederic-Gigers-nach-8-monaten.jpg",
   "https://cdn.elithairtransplant.com/german/wp-content/uploads/2021/08/Nachher-saphir-haartransplantation-4700-Frederic-Gigers.jpg",
@@ -36,4 +39,5 @@ nextBtn.onclick = () =>{
         console.log(counter)
     }
 }
+
 
