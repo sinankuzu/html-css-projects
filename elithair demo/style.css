@@ -11,10 +11,14 @@ header {
   line-height: 60px;
   display: flex;
   justify-content: center;
+ position: sticky;
+  top: -20px;
+  z-index: 2;
 }
 
 nav {
   width: 80%;
+  
 }
 
 .logo {
@@ -25,6 +29,7 @@ ul {
   display: flex;
   float: right;
   font-size: 10px;
+  
 }
 
 li {
