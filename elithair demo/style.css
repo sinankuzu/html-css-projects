@@ -5,6 +5,7 @@
   text-decoration: none;
 }
 
+
 header {
   background-color: blue;
   width: 100%;
@@ -60,7 +61,7 @@ section {
   display: flex;
   justify-content: space-evenly;
   width: 80%;
-  border: 1px solid;
+  
 }
 
 .slide-container {
@@ -160,13 +161,6 @@ h4 {
   display: none;
 }
 
-#check3{
-    display: none;
-}
-
-.show-more2{
-    display: none;
-}
 
 @media (max-width: 1078px) {
   .table {
@@ -183,7 +177,9 @@ h4 {
     position: absolute;
     background-color: blue;
     top: 60px;
-    left: -200px;
+    left: -400px;
+    padding-left:5px;
+    font-size: 20px;
   }
 
   .menu {
@@ -194,17 +190,20 @@ h4 {
     position: absolute;
     left: 0px;
     transition: 1s;
+    z-index: 1;
+    width: 50%;
   }
+   
 
   .text {
     margin-top: 40px;
     margin-left: 0px;
     width: 100%;
-    border: 1px solid red;
+    
   }
   .slide-container {
     display: block;
-    width: 60%;
+    width: 90%;
     text-align: center;
   }
   .slides {
@@ -246,7 +245,7 @@ h4 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    border: 1px solid black;
+    
   }
 
   #check2:checked ~ .second-table-div  {
