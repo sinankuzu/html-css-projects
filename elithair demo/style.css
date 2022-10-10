@@ -28,12 +28,13 @@ nav {
 ul {
   display: flex;
   float: right;
-  font-size: 16px;
+  font-size: 14px;
   
 }
 
 li {
   margin-right: 8px;
+  padding: 0 5px;
 }
 li a {
   color: white;
@@ -164,10 +165,14 @@ h4 {
   display: none;
 }
 
-@media (max-width: 1078px) {
+@media (max-width: 1080px) {
   .table {
     font-size: 11px;
   }
+ul{
+  font-size: 1.1vw;
+}
+  
 }
 
 @media (max-width: 768px) {
@@ -193,7 +198,7 @@ h4 {
     left: 0px;
     transition: 1s;
     z-index: 1;
-    width: 50%;
+    width: 70%;
   }
 
   .text {
