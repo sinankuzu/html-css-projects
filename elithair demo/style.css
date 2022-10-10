@@ -5,7 +5,6 @@
   text-decoration: none;
 }
 
-
 header {
   background-color: blue;
   width: 100%;
@@ -61,7 +60,6 @@ section {
   display: flex;
   justify-content: space-evenly;
   width: 80%;
-  
 }
 
 .slide-container {
@@ -161,7 +159,6 @@ h4 {
   display: none;
 }
 
-
 @media (max-width: 1078px) {
   .table {
     font-size: 11px;
@@ -178,7 +175,7 @@ h4 {
     background-color: blue;
     top: 60px;
     left: -400px;
-    padding-left:5px;
+    padding-left: 5px;
     font-size: 20px;
   }
 
@@ -193,13 +190,11 @@ h4 {
     z-index: 1;
     width: 50%;
   }
-   
 
   .text {
     margin-top: 40px;
     margin-left: 0px;
     width: 100%;
-    
   }
   .slide-container {
     display: block;
@@ -238,21 +233,16 @@ h4 {
   .second-inner-table {
     width: 100%;
   }
-  
+
   .show-more {
     width: 100%;
     color: blue;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    
   }
 
-  #check2:checked ~ .second-table-div  {
+  #check2:checked ~ .second-table-div {
     display: block;
   }
-
-
-  
-
 }
