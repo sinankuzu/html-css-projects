@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.drpdown{
+    margin: 0 auto;
+}
+
+nav{
+    height: 60px;
+    background: blue;
+
+}
+
+.logo{
+    font-weight: bolder;
+    padding: 5px 0 0 80px;
+    width: 150px;
+    height: auto;
+    line-height: 60px;
+    color: white;
+}
+
+#check{
+    display: none;
+}
+
+.menu{
+    float: right;
+    display: none;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right:30px;
+}
+
+nav ul li{
+    background:blue;
+    position:relative;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 13px;
+}
+
+
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+@media(max-width:1042px){
+    .menu{
+        display: block;
+        color: white;
+        line-height: 60px;
+        margin-right: 30px;
+        font-size: 25px;
+    }
+
+    nav ul{
+        position: fixed;
+    top: 60px;
+    left: -200px;
+    float: left;
+    background-color: blue;
+    }
+
+     nav ul li{
+       display: block;
+       text-align: center;
+    }
+    
+    #check:checked ~ ul{
+        transition: 1s;
+        left: 0;
+        width: 40%;
+    }
+    nav ul li:hover > ul {
+        border: 1px solid;
+    position: relative;
+        left: 0px;
+        top: -20px;
+        z-index:1;
+        background: rgb(2, 2, 154);
+        
+        
+        
+}
+    nav ul ul{
+        display: block;
+        
+    }
+
+    nav ul li:hover > ul{
+    display: block;
+}
+}
+

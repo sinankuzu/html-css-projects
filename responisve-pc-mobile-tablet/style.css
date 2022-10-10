@@ -17,21 +17,24 @@ nav{
 }
 
 label.logo{
+    float: left;
 color: white;
 font-size: 35px;
 line-height: 80px;
 padding: 0 100px;
 }
 
-nav ul{
+nav#main ul{
     float:right;
     margin-right: 20px;
+    border: 1px solid;
 }
 
-nav ul li{
-    display: inline-block;
+nav.main ul li{
+    float:left;
     line-height: 80px;
     margin: 0 5px;
+    
     
 }
 
@@ -39,6 +42,8 @@ nav ul li a{
     color: white;
     font-size: 17px;
 }
+
+
 
 .angebot{
     border: 2px solid white;

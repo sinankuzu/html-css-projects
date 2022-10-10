@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+
+}
+
+header{
+    background-color: blue;
+    width: 100%;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    width: 80%;
+   
+}
+
+.logo{
+    float: left;
+    
+}
+ul{
+    display: flex;
+    float: right;
+    font-size: 10px;
+   
+}
+
+li{
+    margin-right: 8px;
+}
+li a{
+    color: white;
+}
+
+.angebot{
+    border: 1.5px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#check{
+    display: none;
+}
+
+.menu{
+    float: right;
+    display: none;
+    color: white;
+    font-size: 25px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    width: 80%;
+    border: 1px solid;
+   
+}
+
+
+.slide-container{
+    
+    margin-top: 40px;
+    width: 80%;
+    
+    position: relative;
+    display: flex;
+ 
+}
+
+.slides{
+    width: 60%;
+    height: 40vh;
+    display: flex;
+     position: relative;
+     
+
+}
+img{
+    width: 100%;
+}
+ button{
+    width:20px;
+    height: 25px;
+    border: none;
+    
+    
+ }
+#prev{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    opacity: 0.4;
+}
+
+#next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    opacity:0.4;
+}
+
+#prev:hover, #next:hover{
+    background-color: gray;
+    transition:1s;
+}
+
+.text{
+    width: 30%;
+    margin:20px 80px;
+    text-align: center;
+    font-size: 16px;
+}
+.container-down{
+    display: flex;
+    justify-content:space-around;
+    width: 70%;
+    border: 1px solid;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.first-table-div{
+    width: 30%;
+    margin-top: 10px;
+}
+
+.second-table-div{
+    width: 60%;
+    margin-top: 10px;
+
+    
+}
+.table{
+     display:flex; 
+     justify-content:space-between;
+     margin: 20px;
+     font-size: 13px;
+}
+
+.inner-table{
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    font-size: 14px;
+    margin-left: 20px;
+}
+.first-inner-table{
+    
+    width: 45%;
+}
+
+.second-inner-table{
+    width: 45%;
+    
+}
+
+@media(max-width:912px){
+    .table{
+        font-size: 11px;
+    }
+}
+
+@media(max-width:768px){
+    
+    ul{
+        display: block;
+       position: absolute;
+    background-color: blue;
+    top: 60px;
+    left: -200px;
+   
+    }
+
+    .menu{
+        display: block;
+    }
+
+    #check:checked ~ ul{
+        
+        position: absolute;
+    left: 0px;
+    transition: 1s;
+
+    }
+
+   .text{
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 100%;
+    border: 1px solid red;
+    
+   }
+  .slide-container{
+    display: block;
+    width: 60%;
+    text-align: center;
+  }
+  .slides{
+    position: relative;
+    height: auto;
+    width: 100%;
+  }
+    .container-down{
+       
+        width
+    }
+
+    .inner-table{
+        display: block;
+    }
+}
