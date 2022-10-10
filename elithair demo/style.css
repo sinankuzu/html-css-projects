@@ -147,7 +147,8 @@ img{
      display:flex; 
      justify-content:space-between;
      margin: 20px;
-     font-size: 13px;
+     
+     
 }
 
 .inner-table{
@@ -175,7 +176,9 @@ h4{
 }
 
 @media(max-width:768px){
-    
+    .table{
+        font-size: 16px;
+    }
     ul{
         display: block;
        position: absolute;
@@ -215,11 +218,41 @@ h4{
     width: 100%;
   }
     .container-down{
-       
-        width
+        display: block;
+        
+        
     }
 
     .inner-table{
         display: block;
+        
     }
+
+    .table{
+        display: flex;
+        
+    }
+
+    .first-table-div{
+        
+        width: 100%;
+    }
+
+    .second-table-div{
+        display: none;
+        width:100%;
+    }
+    .first-inner-table{
+    
+    width: 100%;
+}
+
+.second-inner-table{
+    width: 100%;
+    
+}
+
+.show-more{
+    
+}
 }
