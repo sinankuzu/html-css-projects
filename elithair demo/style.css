@@ -332,12 +332,12 @@ h3 {
     margin: 0 20px;
   }
 
-  #check:checked ~ header ul {
+  #check:checked ~ .menu-ul {
     position: absolute;
     left: 0px;
     transition: 1s;
     z-index: 1;
-    width: 70%;
+    width: 60%;
   }
 
   .text {
