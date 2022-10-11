@@ -3,10 +3,15 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
+
+
+
+
 header {
-  background-color: blue;
+  background-color: rgb(37,105,168);
   width: 100%;
   line-height: 60px;
   display: flex;
@@ -14,17 +19,26 @@ header {
  position: sticky;
   top: -20px;
   z-index: 2;
+  
+  
+  
 }
 
 nav {
-  width: 80%;
-  
+  width: 1000px;
+ 
 }
 
 .logo {
   float: left;
-  color: white;
+  width: 130px;
+   display: flex;
+    height: 60px;
+  
 }
+
+
+
 ul {
   display: flex;
   float: right;
@@ -38,6 +52,11 @@ li {
 }
 li a {
   color: white;
+}
+
+li a:hover{
+  color: gray;
+  border-color: gray;
 }
 
 .angebot {
@@ -60,26 +79,40 @@ li a {
 section {
   display: flex;
   justify-content: center;
+ 
+}
+.name{
+    font-size: 20px;
+    
+    display:flex;
+    width: 800px;
 }
 
+.date{
+  margin-left:80px ;
+  margin-top: 10px;
+  font-size: 16px;
+}
 .container {
-  display: flex;
-  justify-content: space-evenly;
-  width: 80%;
+  
+  display: block;
+  margin-bottom: 50px;
+  width: 1000px;
 }
 
 .slide-container {
   margin-top: 40px;
-  width: 80%;
+  width: 100%;
 
   position: relative;
   display: flex;
+  justify-content: space-between;
 }
 
 .slides {
-  width: 50%;
-  height: 40vh;
-  display: flex;
+  width: 450px;
+  height: 330px;
+  
   position: relative;
 }
 img {
@@ -111,19 +144,21 @@ button {
 }
 
 .text {
-  width: 30%;
-  margin: 20px 80px;
-  text-align: center;
-  font-size: 16px;
+  width: 40%;
+  margin: auto;
+ 
+  margin-top:100px;
+  text-align: left;
+  font-size: 17px;
 }
 .container-down {
   display: flex;
   justify-content: space-around;
-  width: 70%;
-  border: 1px solid;
-  margin-top: 30px;
+  width: 1000px;
+  box-shadow: -1px -1px 11px 1px rgb(144, 144, 144);
+  margin: 30px 30px;
   border-radius: 10px;
-  background-color: blanchedalmond;
+  background-color: rgb(242,242,242);
 }
 
 .first-table-div {
@@ -165,13 +200,25 @@ h4 {
   display: none;
 }
 
-@media (max-width: 1080px) {
-  .table {
-    font-size: 11px;
-  }
-ul{
-  font-size: 1.1vw;
+.button-container{
+  border: 1px solid red;
 }
+
+.button-div{
+  margin-top: 10px;
+  background-color: green;
+  width: 180px;
+  height: 50px;
+  border-radius: 3px;
+}
+
+
+
+@media (max-width: 916px) {
+ 
+ul{
+  font-size: 1.2vw;
+} 
   
 }
 
@@ -188,9 +235,21 @@ ul{
     padding-left: 5px;
     font-size: 20px;
   }
+  .name{
+    display: flex;
+    width:100%;
+  font-size:16px;
+  justify-content: space-between;
+  }
+
+  .date{
+    width:40%;
+  font-size:11px;
+  }
 
   .menu {
     display: block;
+    margin:0 20px;
   }
 
   #check:checked ~ ul {
@@ -202,22 +261,24 @@ ul{
   }
 
   .text {
-    margin-top: 40px;
-    margin-left: 0px;
-    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
   }
   .slide-container {
     display: block;
-    width: 90%;
+    
     text-align: center;
   }
   .slides {
     position: relative;
     height: auto;
-    width: 100%;
+    width: 80%;
+    margin: auto;
   }
   .container-down {
     display: block;
+    
   }
 
   .inner-table {
@@ -226,6 +287,7 @@ ul{
 
   .table {
     display: flex;
+    
   }
 
   .first-table-div {
@@ -255,4 +317,6 @@ ul{
   #check2:checked ~ .second-table-div {
     display: block;
   }
+
+  
 }
