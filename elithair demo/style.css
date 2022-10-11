@@ -4,7 +4,7 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 header {
@@ -141,9 +141,9 @@ button {
   font-size: 17px;
 }
 
-.bold-text{
-  text-align: center; 
-  font-weight: bolder; 
+.bold-text {
+  text-align: center;
+  font-weight: bolder;
   opacity: 1;
 }
 .container-down {
@@ -236,11 +236,9 @@ h3 {
 
 .info-container p {
   margin: 15px 0;
- 
-  
 }
-.info-container a{
-   text-decoration: none;
+.info-container a {
+  text-decoration: none;
   color: white;
 }
 
@@ -271,46 +269,40 @@ h3 {
   align-items: center;
 }
 
-.img-div a{
-    color: white;
-    margin-left:5px;
+.img-div a {
+  color: white;
+  margin-left: 5px;
 }
 
 .last-footer img {
   width: 100px;
 }
 
-.info-small{
-  
-  margin-left:10px;
-  width:100%;
+.info-small {
+  margin-left: 10px;
+  width: 100%;
 }
 
-.informationen{
+.informationen {
   margin-left: 10px;
 }
 
-.icons i{
+.icons i {
   font-size: 35px;
-  margin-right:7px;
+  margin-right: 7px;
   cursor: pointer;
 }
 
-.icons i:hover{
-  color: gray  ;
+.icons i:hover {
+  color: gray;
 }
-
-/* .date{
-  opacity: 0.5;
-  font-size: 14px;
-} */
 
 @media (max-width: 916px) {
   header ul {
     font-size: 1.2vw;
   }
 
-  .container-down{
+  .container-down {
     font-size: 13px;
   }
 }
@@ -339,7 +331,7 @@ h3 {
     width: 40%;
     font-size: 11px;
     opacity: 0.5;
-  margin: 0;
+    margin: 0;
   }
 
   .menu {
@@ -411,39 +403,32 @@ h3 {
     display: block;
   }
 
-  .info-small{
+  .info-small {
     display: block;
-    
   }
 
-  h3{
+  h3 {
     margin: 20px 0;
   }
 
-  .impressum-div li{
+  .impressum-div li {
     font-size: 9px;
   }
 
-  .img-div img{
-    width:50px;
+  .img-div img {
+    width: 50px;
   }
 
-  .img-div a{
+  .img-div a {
     font-size: 8px;
   }
-  
 }
 
-
-
-@media(max-width:580px) {
-footer{
-    font-size:12px;
+@media (max-width: 580px) {
+  footer {
+    font-size: 12px;
   }
-  
 }
 
-@media(max-width:500px){
-
-  
+@media (max-width: 500px) {
 }
