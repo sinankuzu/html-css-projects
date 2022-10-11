@@ -4,46 +4,35 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-
-
-
-
 header {
-  background-color: rgb(37,105,168);
+  background-color: rgb(37, 105, 168);
   width: 100%;
   line-height: 60px;
   display: flex;
   justify-content: center;
- position: sticky;
+  position: sticky;
   top: -20px;
   z-index: 2;
-  
-  
-  
 }
 
 nav {
   width: 1000px;
- 
 }
 
 .logo {
   float: left;
   width: 130px;
-   display: flex;
-    height: 60px;
-  
+  display: flex;
+  height: 60px;
 }
-
-
 
 ul {
   display: flex;
   float: right;
   font-size: 14px;
-  
 }
 
 li {
@@ -54,7 +43,7 @@ li a {
   color: white;
 }
 
-li a:hover{
+li a:hover {
   color: gray;
   border-color: gray;
 }
@@ -79,22 +68,20 @@ li a:hover{
 section {
   display: flex;
   justify-content: center;
- 
 }
-.name{
-    font-size: 20px;
-    
-    display:flex;
-    width: 800px;
+.name {
+  font-size: 20px;
+
+  display: flex;
+  width: 800px;
 }
 
-.date{
-  margin-left:80px ;
+.date {
+  margin-left: 80px;
   margin-top: 10px;
   font-size: 16px;
 }
 .container {
-  
   display: block;
   margin-bottom: 50px;
   width: 1000px;
@@ -112,7 +99,7 @@ section {
 .slides {
   width: 450px;
   height: 330px;
-  
+
   position: relative;
 }
 img {
@@ -146,8 +133,8 @@ button {
 .text {
   width: 40%;
   margin: auto;
- 
-  margin-top:100px;
+
+  margin-top: 100px;
   text-align: left;
   font-size: 17px;
 }
@@ -158,7 +145,7 @@ button {
   box-shadow: -1px -1px 11px 1px rgb(144, 144, 144);
   margin: 30px 30px;
   border-radius: 10px;
-  background-color: rgb(242,242,242);
+  background-color: rgb(242, 242, 242);
 }
 
 .first-table-div {
@@ -200,29 +187,119 @@ h4 {
   display: none;
 }
 
-.button-container{
+.button-container {
   border: 1px solid red;
 }
 
-.button-div{
+.button-div {
   margin-top: 10px;
   background-color: green;
   width: 180px;
   height: 50px;
   border-radius: 3px;
 }
-
-
-
-@media (max-width: 916px) {
- 
-ul{
-  font-size: 1.2vw;
-} 
-  
+footer {
+  background-color: rgb(37, 105, 168);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
 }
 
-@media (max-width: 768px) {
+.bottom-container {
+  width: 1000px;
+}
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  color: white;
+}
+.info-small {
+  display: flex;
+}
+.kontakt {
+  margin-right: 15px;
+}
+
+h3 {
+  margin: 15px 0;
+}
+
+.info-container p {
+  margin: 15px 0;
+ 
+  
+}
+.info-container a{
+   text-decoration: none;
+  color: white;
+}
+
+.info-container button {
+  width: 120px;
+  height: 40px;
+}
+
+.last-footer {
+  background-color: rgb(13, 55, 94);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.yeter {
+  height: 100px;
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.img-div {
+  display: flex;
+
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.last-footer img {
+  width: 100px;
+}
+
+.info-small{
+  
+  margin-left:10px;
+  width:100%;
+}
+
+.informationen{
+  margin-left: 10px;
+}
+
+.icons i{
+  font-size: 35px;
+  margin-right:7px;
+  cursor: pointer;
+}
+
+.icons i:hover{
+  color: gray  ;
+}
+
+@media (max-width: 916px) {
+  ul {
+    font-size: 1.2vw;
+  }
+
+  .container-down{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 800px) {
   .table {
     font-size: 16px;
   }
@@ -235,21 +312,21 @@ ul{
     padding-left: 5px;
     font-size: 20px;
   }
-  .name{
+  .name {
     display: flex;
-    width:100%;
-  font-size:16px;
-  justify-content: space-between;
+    width: 100%;
+    font-size: 16px;
+    justify-content: space-between;
   }
 
-  .date{
-    width:40%;
-  font-size:11px;
+  .date {
+    width: 40%;
+    font-size: 11px;
   }
 
   .menu {
     display: block;
-    margin:0 20px;
+    margin: 0 20px;
   }
 
   #check:checked ~ ul {
@@ -267,7 +344,7 @@ ul{
   }
   .slide-container {
     display: block;
-    
+
     text-align: center;
   }
   .slides {
@@ -278,7 +355,6 @@ ul{
   }
   .container-down {
     display: block;
-    
   }
 
   .inner-table {
@@ -287,7 +363,6 @@ ul{
 
   .table {
     display: flex;
-    
   }
 
   .first-table-div {
@@ -318,5 +393,12 @@ ul{
     display: block;
   }
 
-  
+  .info-small{
+    display: block;
+    
+  }
+
+  h3{
+    margin: 20px 0;
+  }
 }
