@@ -77,9 +77,9 @@ section {
 }
 
 .date {
-  margin-left: 80px;
+  margin-left: 70px;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .container {
   display: block;
@@ -292,6 +292,11 @@ h3 {
   color: gray  ;
 }
 
+/* .date{
+  opacity: 0.5;
+  font-size: 14px;
+} */
+
 @media (max-width: 916px) {
   header ul {
     font-size: 1.2vw;
@@ -325,6 +330,8 @@ h3 {
   .date {
     width: 40%;
     font-size: 11px;
+    opacity: 0.5;
+  margin: 0;
   }
 
   .menu {
