@@ -297,6 +297,16 @@ h3 {
   color: gray;
 }
 
+.kontakt button{
+  cursor: pointer;
+  color: rgb(13, 55, 94);
+}
+
+.kontakt button:hover{
+  transition: 0.5s;
+  background-color: gray;
+}
+
 @media (max-width: 916px) {
   header ul {
     font-size: 1.2vw;
