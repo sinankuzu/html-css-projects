@@ -330,6 +330,7 @@ h3 {
     left: -400px;
     padding-left: 5px;
     font-size: 20px;
+    transition: 1s;
   }
   .name {
     display: flex;
